@@ -1,0 +1,18 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Pdf To Image Converter</title>	
+	</head>
+
+	<body>
+		<!-- Upload form. Note enctype attribute! -->
+		<form action="/" method="post">
+			{% csrf_token %}
+			<input type="text" name="pdf_url" value="https://www.amgw.co.uk/sample.pdf" style="width: 350px"/>
+			<input type="submit" value="Get an image from pdf" />
+		</form>
+	</body>
+
+</html> 

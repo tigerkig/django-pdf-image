@@ -1,0 +1,7 @@
+asgiref==3.6.0
+Django==3.0.14
+pdf2image==1.16.2
+Pillow==9.4.0
+pytz==2022.7.1
+sqlparse==0.4.3
+typing-extensions==4.5.0
